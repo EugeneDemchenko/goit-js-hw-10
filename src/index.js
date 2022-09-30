@@ -19,7 +19,8 @@ function inputText() {
             .catch(error => {
                 console.log(error);
             });
-    }
+    }   information.innerHTML = '';
+        list.innerHTML = '';
 }
 
 function countryChecking(countryList) {
